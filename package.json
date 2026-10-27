@@ -1,0 +1,31 @@
+{
+  "name": "greenhouse-game",
+  "version": "1.0.0",
+  "description": "Browser greenhouse management game built with Three.js. Grow tomatoes, balance climate and resources.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Dmitriy Kononov (https://kononov.dev)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimetrrius/greenhouse-game.git"
+  },
+  "homepage": "https://dimetrrius.github.io/greenhouse-game/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.170.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.4"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
